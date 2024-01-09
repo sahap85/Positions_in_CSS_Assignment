@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>assignment-2</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Feature</th>
+        <th>Absolute</th>
+        <th>Relative</th>
+      </tr>
+
+      <tr>
+        <td>Positioning Reference</td>
+        <td>
+          Positioned relative to the nearest positioned ancestor (if any),
+          otherwise, it's relative to the initial containing block (usually the
+          document itself).
+        </td>
+        <td>
+          Positioned relative to its normal position in the document flow.
+        </td>
+      </tr>
+      <tr>
+        <td>Effect on Surrounding Elements</td>
+        <td>Does not affect the layout of surrounding elements.</td>
+        <td>
+          Reserves space for the element in the normal document flow, so
+          surrounding elements may be affected.
+        </td>
+      </tr>
+      <tr>
+        <td>Z-index</td>
+        <td>
+          The z-index property can be applied, affecting the stacking order of
+          elements.
+        </td>
+        <td>
+          The z-index property can be applied, affecting the stacking order of
+          elements.
+        </td>
+      </tr>
+      <tr>
+        <td>Use of Margin and Padding</td>
+        <td>
+          Margins and padding do not affect the position of an absolutely
+          positioned element.
+        </td>
+        <td>
+          Margins and padding can affect the position of a relatively positioned
+          element as they apply to the normal flow.
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

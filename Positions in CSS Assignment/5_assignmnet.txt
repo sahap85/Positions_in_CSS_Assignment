@@ -1,0 +1,2 @@
+The z-index property is used to control the stacking order of positioned elements.
+ An element with a higher z-index value will appear on top of elements with lower values.
